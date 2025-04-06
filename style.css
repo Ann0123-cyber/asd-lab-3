@@ -1,0 +1,26 @@
+* {
+    background-color: #ecc7e0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+.canvases {
+    display: flex;
+    gap: 50px; 
+    align-items: center;
+    padding: 20px;
+}
+
+.napr, .neNapr {
+    border: 3px solid black;
+    background-color: #dca5ce;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); 
+}
